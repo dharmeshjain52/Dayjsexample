@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dropdown">
+        <p id="zone"></p>
+            <i id="myBtn" class="fa-solid fa-arrow-up-right-from-square"></i>
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <div class="select">
+                  <p>Choose Time Zone</p>
+                  <select name="zone" id="zoneselect"></select>
+                </div>
+              </div>
+              </div>
+        </div>
+        <div class="box">
+        <h1 id="time"></h1>
+        </div>
+        <p id="date"></p>
+    </div>
+    <script src="timezones.js"></script>
+    <script src="./date.js"></script>
+</body>
+</html>
